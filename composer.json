@@ -1,0 +1,16 @@
+{
+    "name": "strumenta/php-roman-parser",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {       
+            "antlr\\antlr4-php-runtime\\": "src/",     
+            "RomanParser\\": [ "Generated/", "src/"]
+        }      
+    },       
+    "require": {        
+        "antlr/antlr4-php-runtime": "^0.5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
